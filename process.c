@@ -5,7 +5,8 @@
 	
 	Descripcion:
 
-
+	Contiene la funcion con la que se llama a las acciones
+	que se realizan sobre los pines
 
  ******************************************************************************/
 

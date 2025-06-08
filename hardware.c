@@ -120,24 +120,6 @@ void pinMode (char* pin, char* direccion){
 	sprintf(error3 + (sizeof(error3)-3),"%s", pin);
 
 	tryAndRetry (path, direccion, error1, error2, error3);
-/*
-	FILE* pointer;
-	char path [40] = {0};
-
-	sprintf(path,"/sys/class/gpio/gpio%s/direction",pin);
-
-	if ((pointer = fopen (path, "w")) == NULL){
-		printf("Error de acceso al direccionamiento pin %s", pin);
-		abortar();
-	}
-	if (fputs (direccion, pointer) == EOF){
-		printf("Error de direccionamiento del pin %s", pin);
-		abortar();
-	}
-	if (fclose (pointer) == EOF){
-		printf("Error de cierre del direccionamiento del pin %s", pin);
-		abortar();
-	}*/
 }
 
 

@@ -5,7 +5,12 @@
 
 	Descripcion:
 
+	Header correspondiente a input.c,
+	Contiene el prototipo de la funcion input.
 
+	-input: Inicia una lectura de caracteres sobre la terminal
+	y verifica que lo ingresado este dentro de los parametros establecidos.
+	No recibe parametros pero devuelve un flag (ver flags.h) o el led a encender del 0 al 7
 
  ******************************************************************************/
 

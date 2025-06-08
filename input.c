@@ -5,7 +5,9 @@
 	
 	Descripcion:
 
+	Contiene las funciones que controlan el ingreso de datos por consola.
 
+	-instrucciones: Imprime las "reglas" del programa y las condiciones que tiene que seguir el imput. No devuelve ni recibe nada.
 
  ******************************************************************************/
 
