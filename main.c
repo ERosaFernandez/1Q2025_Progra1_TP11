@@ -16,6 +16,9 @@
 	• Con la letra 'c', se deberán apagar todos, y con 's', prender todos.
 	• Con la letra 'q', el programa finalizará.
 
+	nota: en la raspberry, se uso el comando:
+	gcc -Wall -g -o main main.c input.c hardware.c process.c
+
  ******************************************************************************/
 
 /*******************************************************************************
